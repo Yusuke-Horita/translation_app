@@ -1,0 +1,5 @@
+<%= form_with url: root_path, method: :get, local: true do |f| %>
+	<%= f.text_area :text, value: @value %>
+	<%= f.submit %>
+<% end %>
+<%= @language %>
